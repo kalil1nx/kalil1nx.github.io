@@ -1,0 +1,119 @@
+/* Landing page  styling*/
+body {
+  background-color: white;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://yahoo201027.files.wordpress.com/2019/03/20190320-201212.png?w=720);
+  background-position: absolute;
+  background-size: fill;
+  height: 300px;
+  width: 100%;
+}
+
+.logo {
+  justify-self: center;
+  position: absolute;
+  width: 400px;
+  padding-top: 100px;
+}
+button {
+  object-fit: fill;
+  border: none;
+  background-color: white;
+}
+
+.burger {
+  height: 100px;
+  border: none;
+}
+
+/*Styling the main part of the body*/
+.sub {
+  display: flex;
+  justify-content: center;
+}
+
+.emailsub {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-family: "Lobster Two", cursive;
+  align-self: center;
+  margin: 30px;
+  font-size: 2rem;
+  color: rgb(235, 8, 50);
+}
+
+.email {
+  display: flex;
+  align-self: center;
+  font-size: 2rem;
+  font-family: "Lobster Two", cursive;
+  color: rgb(235, 8, 50);
+}
+
+input {
+  border: none;
+  height: 25px;
+  background-color: lightgray;
+  appearance: none;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 20px;
+}
+
+.tax {
+  align-self: center;
+  opacity: 0.6;
+  font-size: 10px;
+  font-family: "Lobster Two", cursive;
+  margin-left: 200px;
+}
+
+/*Formatting the subscription section*/
+
+/*The first subscription*/
+
+.subs {
+  display: flex;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+figure {
+  border: solid 5px rgba(0, 0, 0, 0.2);
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.character {
+  border-radius: 100%;
+  border: solid 5px white;
+  object-fit: cover;
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 50%;
+  height: 60%;
+}
+
+figcaption {
+  font-family: "Lobster Two", cursive;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgb(235, 8, 50);
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}

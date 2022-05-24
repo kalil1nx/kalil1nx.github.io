@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  max-height: auto;
+}
+
+/*Styling the header of the page*/
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: slategray;
+  width: auto;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  background-color: slategray;
+  border: none;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Lobster Two", cursive;
+}
+
+.section1 {
+  display: flex;
+  background-color: black;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  justify-self: flex-end;
+  align-self: center;
+  color: white;
+  margin-left: 100px;
+  font-family: academyengravedLETplain;
+  font-size: 3em;
+}
+
+.date {
+  position: absolute;
+  justify-self: flex-end;
+  align-self: center;
+  color: white;
+  margin-left: 150px;
+  margin-top: 150px;
+  font-family: academyengravedLETplain;
+}
+
+img {
+  height: 70%;
+  width: 70%;
+  margin-left: 400px;
+}

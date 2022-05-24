@@ -1,0 +1,175 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(230, 224, 187);
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 0;
+}
+button {
+  height: 20%;
+  width: auto;
+  align-self: flex-end;
+  margin: 10px;
+  padding: 10px 10px 30px 10px;
+  color: rgb(13, 10, 69);
+  font-family: avenir;
+  font-size: large;
+  flex-wrap: nowrap;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(230, 224, 187);
+}
+
+button:hover {
+  border: outset;
+  border-color: rgb(13, 10, 69);
+}
+
+.section1 {
+  display: flex;
+}
+
+.gtr {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  align-self: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+  font-family: copperplate;
+  font-weight: bold;
+}
+
+h2 {
+  position: absolute;
+  align-self: flex-end;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-left: 50px;
+  margin-bottom: 180px;
+  font-family: copperplate;
+  font-weight: bold;
+}
+
+.contact:hover {
+  color: black;
+  background-color: white;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+  max-width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*This is the style for the photos*/
+.section2photos {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+.section2photos:hover {
+  filter: blur(10px);
+}
+
+/*This is the style for the gallery label*/
+.gal-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  color: white;
+  justify-self: flex-end;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+.gallery:hover {
+  color: black;
+  background-color: white;
+}
+/*This is the styling for the services label*/
+
+.ser-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services {
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  color: white;
+  justify-self: flex-end;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+/*Thisis the styling for the community label*/
+.com-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.community {
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  color: white;
+  justify-self: flex-end;
+  margin-left: 220px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+.label {
+  padding: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+hr {
+  color: white;
+  width: 600px;
+  margin-top: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  background-image: url(https://www.teahub.io/photos/full/166-1664538_anime-wallpaper-hd-for-laptop.jpg);
+}
+
+.social {
+  height: 50px;
+  padding: 100px;
+}
